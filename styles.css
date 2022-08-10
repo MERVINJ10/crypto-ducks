@@ -1,0 +1,24 @@
+@import url('http://fonts.cdnfonts.com/css/games');
+
+
+/* Hover: #007791
+Text color: #895E7A 
+ffe8ae*/
+
+body{
+    font-family: "games";
+    background-color:#FFD257;
+    color: #895E7A;
+}
+
+header {
+    background-color:#ffe8ae;
+}
+
+img{
+    width: 80px;
+}
+
+li {
+    display: inline-block;
+}
