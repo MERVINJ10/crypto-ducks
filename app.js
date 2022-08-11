@@ -1,7 +1,18 @@
-let username = prompt("what is your name");
+function getName() {
+let name = prompt("what is your name")
 
-console.log(username);
+let nameMessage
 
-let age = prompt("what is yours age");
+if (name === "tim") {
+    nameMessage = "best Tim";
+} else {
+    nameMessage ="Welcome" + name;
 
-document.write(username + ", you are " + age);
+}
+
+return document.write(nameMessage + ", ");
+
+
+}
+
+
